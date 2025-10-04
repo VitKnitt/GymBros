@@ -1,0 +1,45 @@
+import Image from "next/image";
+
+const Footer = () => {
+  return (
+    <footer
+      id="Kontakt"
+      className="scroll-mt-[70px] bg-one text-gray-300 py-10 border-t-4 border-three"
+    >
+      <div className="max-w-7xl mx-auto px-6 flex justify-between wrap">
+        {/* Logo + krátký text */}
+        <div>
+          <Image src="/logo-mini.svg" alt="logoMini" className="mb-3" width={64} height={64} />
+          <p className="text-sm">
+            Poctivá italská pizza přímo z pece. Tradice, chuť a láska k řemeslu.
+          </p>
+        </div>
+
+        {/* Kontakt */}
+        <div>
+          <h3 className="text-white font-semibold mb-3">Kontakt</h3>
+          <ul className="space-y-2 text-sm">
+            <li>Email: Giuliano@gmail.com</li>
+          </ul>
+        </div>
+
+        {/* Adresa */}
+        <div>
+          <h3 className="text-white font-semibold mb-3">Adresa</h3>
+          <ul className="space-y-2 text-sm">
+            <li>Giuliano Restaurant</li>
+            <li>Na Příkopech 257</li>
+            <li>388 01 Blatná</li>
+          </ul>
+        </div>
+      </div>
+
+      {/* spodní lišta */}
+      <div className="border-t border-gray-700 mt-10 pt-4 text-center text-sm text-gray-500">
+        <p>© {new Date().getFullYear()} Všechna práva vyhrazena.</p>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
