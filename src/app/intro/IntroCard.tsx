@@ -8,15 +8,8 @@ type CardItem = {
   alt: string;
 };
 
-export function ImageCard() {
+export function IntroCard() {
   const cards: CardItem[] = [
-    {
-      title: "test",
-      description:
-        "Built with performance in mind. Lightning-fast load times and 99.9% uptime guaranteed.",
-      path: img,
-      alt: "img",
-    },
     {
       title: "test",
       description:

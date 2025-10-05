@@ -10,10 +10,10 @@ const Header = () => {
 
   const menuItems = [
     { href: "/", label: "O nás" },
-    { href: "/pegina", label: "Produkty" },
-    { href: "/menu", label: "Menu" },
-    { href: "/galerie", label: "Galerie" },
-    { href: "/contact", label: "Kontakt" },
+    { href: "/lection", label: "lection" },
+    { href: "/nejlepsiPosilovna", label: "nejlepsiPosilovna" },
+    { href: "/sluzby", label: "sluzby" },
+    { href: "/kontakt", label: "kontakt" },
   ];
 
   return (
