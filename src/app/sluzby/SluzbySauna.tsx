@@ -1,18 +1,16 @@
 import Image from "next/image";
-import img1 from "../../assets/img/img.jpg";
+import img1 from "../../assets/img/s1.jpg";
 
 export function SluzbySauna() {
-  //bg-fixed
-  //bg-[url('/backGround/cccoil.svg')]
   return (
-    <section className="bg-one bg-cover bg-center flex flex-row justify-evenly flex-wrap gap-10 p-5 pb-20">
+    <section className="bg-one bg-cover bg-center flex flex-row justify-start flex-wrap gap-10 p-5 pb-20 pl-0 sm:pl-[10%]">
       <article className="max-w-prose p-4">
-        <h2 className="text-2xl font-bold mb-3">SAUNA & ODPOČINKOVÁ ZÓNA</h2>
-        <p className="text-base leading-relaxed">
+        <h2 className="text-5xl font-bold mb-3 text-three">SAUNA & ODPOČINKOVÁ ZÓNA</h2>
+        <p className="text-2xl leading-relaxed">
           Další skvělý lidský vynález i u nás: saunu & odpočinek
         </p>
       </article>
-      <div className="relative w-40 h-40">
+      <div className="relative w-[320px] h-[320px]">
         <Image
           src={img1}
           alt=""

@@ -1,12 +1,12 @@
 import Image from "next/image";
-import img1 from "../../assets/img/img.jpg";
-import img2 from "../../assets/img/img.jpg";
-import img3 from "../../assets/img/img.jpg";
+import facebook from "../../assets/icons/facebook.png";
+import instagram from "../../assets/icons/instagram.png";
+import youtube from "../../assets/icons/youtube.png";
 
 const elements = [
-  { path: img1, alt: "img1", text: "Instagram" },
-  { path: img2, alt: "img2", text: "Facebook" },
-  { path: img3, alt: "img3", text: "Youtube" },
+  { path: facebook, alt: "facebook-icon", text: "Instagram" },
+  { path: instagram, alt: "instagram-icon", text: "Instagram" },
+  { path: youtube, alt: "youtube-icon", text: "Youtube" },
 ];
 
 export default function IntroIcons() {
@@ -17,16 +17,13 @@ export default function IntroIcons() {
           key={index}
           className="relative bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300"
         >
-          <div className="relative h-64 w-full">
+          <div className="relative h-20 w-20">
             <Image
               src={item.path}
               alt={item.alt}
               fill
               className="object-cover"
             />
-          </div>
-          <div className="p-4 bg-white">
-            <p className="text-gray-800 font-medium text-lg">{item.text}</p>
           </div>
         </div>
       ))}

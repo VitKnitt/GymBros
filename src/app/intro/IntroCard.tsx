@@ -1,5 +1,7 @@
 import Image, { StaticImageData } from "next/image";
-import img from "../../assets/img/img.jpg";
+import g from "../../assets/img/g.png";
+import e from "../../assets/img/e.jpg";
+import m1 from "../../assets/img/m1.jpg";
 
 type CardItem = {
   title: string;
@@ -11,24 +13,24 @@ type CardItem = {
 export function IntroCard() {
   const cards: CardItem[] = [
     {
-      title: "test",
+      title: "posilovna",
       description:
-        "Built with performance in mind. Lightning-fast load times and 99.9% uptime guaranteed.",
-      path: img,
+        "potřebujete pro svůj trénink stroje, činky, klece, hrazdy, klid? Máme vše!",
+      path: e,
       alt: "img",
     },
     {
-      title: "test",
+      title: "lekce",
       description:
-        "Built with performance in mind. Lightning-fast load times and 99.9% uptime guaranteed.",
-      path: img,
+        "Ve dvou se to lépe táhne, ve skupině nejlépe. Jaké lekce u nás najdete?",
+      path: m1,
       alt: "img",
     },
     {
-      title: "test",
+      title: "služby",
       description:
-        "Built with performance in mind. Lightning-fast load times and 99.9% uptime guaranteed.",
-      path: img,
+        "Posilovnou to u nás nekončí. Jaké další parády nabízíme a za kolik?",
+      path: g,
       alt: "img",
     },
    
@@ -37,7 +39,7 @@ export function IntroCard() {
   return (
     <section
       aria-label="Features"
-      className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 justify-center"
+      className="flex justify-evenly wrap -mt-8"
     >
       {cards.map((feature, index) => (
         <article
@@ -54,7 +56,7 @@ export function IntroCard() {
             />
           </div>
           <div className="p-5">
-            <h2 className="text-xl">{feature.title}</h2>
+            <h2 className="text-3xl">{feature.title}</h2>
             <p className="mt-2">{feature.description}</p>
           </div>
         </article>
