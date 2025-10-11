@@ -1,3 +1,4 @@
+'use client';
 import React from "react";
 
 type CardItem = {
@@ -8,6 +9,10 @@ type CardItem = {
 };
 
 export function LectionCard() {
+  const handleRedirect = () => {
+    window.location.href = "https://www.reservio.com/cs/osobni-trenink"; // 👉 Zde dej svou URL
+  };
+
   const cards: CardItem[] = [
     {
       title: "BODY & MIND",
@@ -37,8 +42,8 @@ export function LectionCard() {
       <article className="max-w-prose p-4 pl-0 sm:pl-[10%]">
         <h2 className="text-5xl font-bold mb-3 text-three">VYBER SI LEKCI</h2>
         <p className="text-base leading-relaxed text-four">
-          Chceš zlepšit kondici, sílu nebo zrelaxovat po náročném dni?  
-          Máme lekce pro každého — stačí si vybrat tu svoji.
+          Chceš zlepšit kondici, sílu nebo zrelaxovat po náročném dni? Máme
+          lekce pro každého — stačí si vybrat tu svoji.
         </p>
       </article>
 
@@ -50,12 +55,17 @@ export function LectionCard() {
           >
             <div className="flex flex-col gap-3">
               <h2 className="text-3xl font-bold text-three">{feature.title}</h2>
-              <p className="text-lg font-semibold text-five">{feature.description}</p>
+              <p className="text-lg font-semibold text-five">
+                {feature.description}
+              </p>
               <p className="font-medium">{feature.text1}</p>
               <p className="text-sm text-four">{feature.text2}</p>
             </div>
 
-            <button className="mt-6 w-full py-2 bg-three text-one font-semibold rounded-lg hover:bg-two hover:text-three transition-colors">
+            <button
+              className="mt-6 w-full py-2 bg-three text-one font-semibold rounded-lg hover:bg-two hover:text-three transition-colors"
+              onClick={handleRedirect}
+            >
               Rezervovat lekci
             </button>
           </article>
@@ -64,4 +74,3 @@ export function LectionCard() {
     </section>
   );
 }
-
