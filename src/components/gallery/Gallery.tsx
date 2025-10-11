@@ -27,6 +27,7 @@ export default function Gallery() {
             className={`absolute top-0 left-0 w-full h-full object-cover transition-opacity duration-700 ${
               index === current ? "opacity-100" : "opacity-0"
             }`}
+            unoptimized
           />
         ))}
       </div>

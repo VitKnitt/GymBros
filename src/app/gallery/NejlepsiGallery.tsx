@@ -50,7 +50,7 @@ export default function NejlepsiGallery() {
             onClick={() => setSelectedIndex(index)}
           >
             <div className="relative h-[300px] w-[300px] relative">
-              <Image src={img} alt={`img-${index}`} fill className="object-cover" />
+              <Image src={img} alt={`img-${index}`} fill className="object-cover" unoptimized/>
             </div>
           </div>
         ))}
@@ -90,6 +90,7 @@ export default function NejlepsiGallery() {
               alt={`img-${selectedIndex}`}
               fill
               className="object-contain"
+              unoptimized
             />
           </div>
         </div>

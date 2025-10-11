@@ -49,6 +49,7 @@ export function IntroCard() {
               className="object-cover rounded-t-xl"
               fill
               sizes="(max-width: 768px) 100vw, 320px"
+              unoptimized
             />
           </div>
           <div className="p-5">

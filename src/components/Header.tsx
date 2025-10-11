@@ -28,6 +28,7 @@ const Header = () => {
           height={70}
           className="w-[140px] h-auto"
           priority
+          unoptimized
         />
       </Link>
 

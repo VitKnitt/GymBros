@@ -18,6 +18,7 @@ export function SluzbyTreber() {
           className="object-cover rounded-t-xl"
           fill
           sizes="(max-width: 768px) 100vw, 300px"
+          unoptimized
         />
       </div>
 

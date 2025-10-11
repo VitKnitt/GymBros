@@ -23,6 +23,7 @@ export default function Icons() {
               alt={item.alt}
               fill
               className="object-cover"
+              unoptimized
             />
           </div>
         </div>

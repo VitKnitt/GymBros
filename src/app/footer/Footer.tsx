@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Icons from "./Icons";
 import logo from '../../assets/icons/logo.png'
 
 const Footer = () => {
@@ -17,6 +16,7 @@ const Footer = () => {
             className="mb-3"
             width={64}
             height={64}
+            unoptimized
           />
           <p className="text-sm">
             Přijď si k nám zacvičit a posuň svoje tělo na další level!

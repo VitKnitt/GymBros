@@ -1,4 +1,3 @@
-import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "../components/Header";
@@ -15,31 +14,31 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "NRG Fitness – Nejlepší gym v Brně",
+  title: "Gym-Bros Fitness – Nejlepší gym v Příboře",
   description: "Přijď si zacvičit, posuň své tělo na další level a zažij opravdový gym-bros vibe!",
   keywords: [
     "fitness",
     "posilovna",
     "gym",
-    "NRG Fitness",
+    "Fitness",
     "cvičení",
     "silový trénink",
     "crossfit",
     "sportovní masáže",
     "gym bros"
   ],
-  authors: [{ name: "NRG Fitness", url: "https://www.nrgfitness.cz" }],
+  authors: [{ name: "Fitness", url: "https://www.gbfitness.cz" }],
   openGraph: {
-    title: "NRG Fitness – Nejlepší gym v Brně",
+    title: "Gym-Bros Fitness – Nejlepší gym v Příboře",
     description: "Přijď si zacvičit, posuň své tělo na další level a zažij opravdový gym-bros vibe!",
-    url: "https://www.nrgfitness.cz",
-    siteName: "NRG Fitness",
+    url: "https://www.gbfitness.cz",
+    siteName: "Gym-Bros Fitness",
     images: [
       {
-        url: "/og-image.jpg", // nahraď vlastním obrázkem
+        url: "../assets/icons/logo.png", // nahraď vlastním obrázkem
         width: 1200,
         height: 630,
-        alt: "NRG Fitness – Gym Bros"
+        alt: "Fitness – Gym Bros"
       }
     ],
     locale: "cs_CZ",
@@ -47,10 +46,10 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "NRG Fitness – Nejlepší gym v Brně",
+    title: "Gym-Bros Fitness – Nejlepší gym v Příboře",
     description: "Přijď si zacvičit, posuň své tělo na další level a zažij opravdový gym-bros vibe!",
-    images: ["/og-image.jpg"],
-    creator: "@nrgfitness",
+    images: ["../assets/icons/logo.png"],
+    creator: "@gbfitness",
   },
 };
 

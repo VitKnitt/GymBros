@@ -66,6 +66,7 @@ export function IntroPrice() {
                 alt={plan.title}
                 fill
                 className="object-cover"
+                unoptimized
               />
               <div
                 className={`absolute inset-0 ${
