@@ -5,11 +5,9 @@ export function SluzbyMasaze() {
   return (
     <section className="flex flex-row justify-start flex-wrap gap-10 p-5 pb-20 pl-0 sm:pl-[10%]">
       <article className="max-w-prose p-4">
-        <h2 className="text-5xl font-bold mb-3 text-three">
-          SPORTOVNÍ MASÁŽE
-        </h2>
+        <h2 className="text-5xl font-bold mb-3 text-three">SPORTOVNÍ MASÁŽE</h2>
         <p className="text-2xl leading-relaxed">
-          Regenerace není sprosté slovo
+          Regenerace není slabost – je to tvůj tajný booster výkonu
         </p>
       </article>
 
@@ -25,11 +23,11 @@ export function SluzbyMasaze() {
 
       <div>
         <p className="max-w-prose p-4">
-          V našem fitness centru nabízíme víc než jen trénink. Dopřejte si
-          odpočinek a regeneraci díky našim sportovním masážím, které jsou
-          ideální po náročném výkonu i jako součást pravidelné péče o tělo.
-          Masáž pomáhá uvolnit namožené svaly, podpořit regeneraci a zlepšit
-          celkový výkon.
+          V Gym-Bros Fitness to nekončí u činek. Po tvrdém tréninku dej svému tělu
+          restart s našimi sportovními masážemi. Uvolníš svaly, zrychlíš
+          regeneraci a připravíš se na další výkon. Ideální po drsných
+          trénincích nebo jako pravidelná péče o tělo, která tě drží na vrcholu
+          formy.
         </p>
 
         <div>

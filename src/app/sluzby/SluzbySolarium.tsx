@@ -6,7 +6,7 @@ export function SluzbySolarium() {
     <section className="flex flex-row justify-start flex-wrap gap-20 p-5 pb-20 pl-0 sm:pl-[10%]">
       <article className="p-4">
         <h2 className="text-5xl font-bold mb-3 text-three">SOLÁRIUM</h2>
-        <p className="text-2xl leading-relaxed">Bronzová kůže 24/7</p>
+        <p className="text-2xl leading-relaxed">Bronzová kůže nonstop</p>
       </article>
 
       <div className="relative w-[320px] h-[320px]">
@@ -21,10 +21,9 @@ export function SluzbySolarium() {
 
       <div>
         <p className="max-w-prose p-4">
-          V naší posilovně můžete využít moderní stojící solárium pro efektivní
-          a pohodlné opalování. Užijte si chvíle relaxace ve stoje, zatímco
-          solárium pečuje o rovnoměrné opálení vaší pokožky. Máme pro vás
-          připraveno toto solárium za cenu 13 Kč za minutu.
+          V Gym-Bros Fitness myslíme i na tvůj look. Moderní stojící solárium ti
+          zajistí rovnoměrné opálení a příjemnou relaxaci. Užij si bronzovou
+          kůži kdykoli chceš – cena je jen 13 Kč za minutu.
         </p>
 
         <div>

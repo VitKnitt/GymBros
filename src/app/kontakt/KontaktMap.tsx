@@ -1,11 +1,11 @@
 export function KontaktMap({
-  name = "Giuliano Restaurant",
-  address = "Na Příkopech 257, 388 01 Blatná",
-  mapUrl = "https://www.google.com/maps/place/Na+P%C5%99%C3%ADkopech+257,+388+01+Blatn%C3%A1,+Czechia/@49.423812,13.881512,14z/data=!4m6!3m5!1s0x470b3bfeabec1e99:0x9ee2d84673899609!8m2!3d49.4238117!4d13.8815116!16s%2Fg%2F11cskt_fvg?hl=en&entry=ttu&g_ep=EgoyMDI1MDkzMC4wIKXMDSoASAFQAw%3D%3D",
+  name = "Gym-bros",
+  address = "Jičínská 247, 742 58 Příbor",
+  mapUrl = "https://www.google.com/maps/place/Ji%C4%8D%C3%ADnsk%C3%A1+247,+742+58+P%C5%99%C3%ADbor/@49.640442,18.1381815,18z/data=!4m6!3m5!1s0x4713edc07d31f5c1:0xad05a1f673fc17ce!8m2!3d49.6408904!4d18.1384749!16s%2Fg%2F11csn8jbbd?hl=en&entry=ttu&g_ep=EgoyMDI1MTAwOC4wIKXMDSoASAFQAw%3D%3D",
   showEmbed = true,
 }) {
   return (
-    <section className="max-w-4xl mx-auto pt-[100px] pb-10" id="Contact">
+    <section className="max-w-4xl mx-auto pt-[100px] pb-32" id="Contact">
       <div className="bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-100">
         <div className="md:flex">
           {/* Left: text */}
@@ -20,9 +20,8 @@ export function KontaktMap({
               </h4>
 
               <p className="text-sm text-gray-600 leading-relaxed mb-4">
-                Přijďte ochutnat naše tradiční pečené pizzy v útulném prostředí.
-                Najdete nás v centru města — ideální místo na oběd i večerní
-                posezení s rodinou a přáteli.
+                Zvedni činky, zapomeň na výmluvy a pojď s námi do akce – tvé
+                tělo ti poděkuje!
               </p>
 
               <div className="text-sm text-gray-800 mb-6">
@@ -109,16 +108,16 @@ export function KontaktMap({
           <div className="md:w-1/2">
             {showEmbed ? (
               <div className="w-full h-64 md:h-full">
-                <div >
+                <div>
                   <iframe
-                   
                     className="w-[25rem] h-[20rem]"
-                    src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Blatna%20Na%20P%C5%99%C3%ADkopech%20257+(Giuliano%20restaurant)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2583.711438468547!2d18.136545887420752!3d49.64089298644016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4713edc07d31f5c1%3A0xad05a1f673fc17ce!2zSmnEjcOtbnNrw6EgMjQ3LCA3NDIgNTggUMWZw61ib3I!5e0!3m2!1sen!2scz!4v1760215721584!5m2!1sen!2scz"
                   >
                     <a href="https://www.mapsdirections.info/it/calcola-la-popolazione-su-una-mappa/">
                       città più popolate Italia mappa
                     </a>
                   </iframe>
+               
                 </div>
               </div>
             ) : (

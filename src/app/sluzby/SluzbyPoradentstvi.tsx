@@ -8,7 +8,9 @@ export function SluzbyPoradentstvi() {
         <h2 className="text-5xl font-bold mb-3 text-three">
           DIAGNOSTIKA A PORADENSTVÍ
         </h2>
-        <p className="text-2xl leading-relaxed">Když to chcete mít ťip ťop</p>
+        <p className="text-2xl leading-relaxed">
+          Pro perfektní výkon a výsledky
+        </p>
       </article>
 
       <div className="relative w-[320px] h-[320px]">
@@ -23,10 +25,10 @@ export function SluzbyPoradentstvi() {
 
       <div>
         <p className="max-w-prose p-4">
-          U cvičení musíte samozřejmě vidět své výsledky i na papíře — protože
-          zdravé tělo není jen o zvedání činek, ale také o tom, jak se vaše tělo
-          vyvíjí a regeneruje. Nabízíme diagnostiku složení těla, konzultace s
-          odborníkem a doporučení pro optimální výživu a trénink.
+          Chceš vidět svůj pokrok na vlastní oči? Zdravé tělo není jen o činkách
+          – jde o měření výsledků, regeneraci a správný postup. Nabízíme
+          kompletní diagnostiku těla, odborné konzultace a doporučení pro
+          trénink i výživu, aby tvoje výsledky rostly rychle a efektivně.
         </p>
 
         <div>

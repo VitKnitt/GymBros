@@ -9,21 +9,21 @@ const elements = [
     alt: "trenerka-lucie",
     text: "Lucie Králová",
     description:
-      "Instruktorka jógy a pilatesu. Pomáhá klientům zlepšit flexibilitu, sílu středu těla a duševní rovnováhu.",
+      "Jóga a pilates pro sílu i flexibilitu. Lucie tě naučí ovládnout střed těla a najít vnitřní rovnováhu.",
   },
   {
     path: lect2,
     alt: "trener-dusan",
     text: "Dušan Knodd",
     description:
-      "Silový trenér a instruktor Pumpa tréninků. Zaměřuje se na správnou techniku, výbušnost a motivaci ve skupině.",
+      "Mistr silového tréninku a Pumpa lekcí. Dušan tě posune v technice, výbušnosti a motivaci na maximum.",
   },
   {
     path: lect3,
     alt: "trener-petr",
     text: "Petr Veselý",
     description:
-      "Specialista na kruhové tréninky a funkční cvičení. Jeho lekce jsou dynamické, pestré a zaměřené na celkovou kondici.",
+      "Kruhové a funkční tréninky plné energie. Petrův styl je dynamický, zábavný a perfektní pro celkovou kondici.",
   },
 ];
 
@@ -44,7 +44,9 @@ export default function LectorImg() {
             />
           </div>
           <div className="p-4 flex flex-col justify-start">
-            <p className="text-five font-bold font-bold text-2xl">{item.text}</p>
+            <p className="text-five font-bold font-bold text-2xl">
+              {item.text}
+            </p>
             <p className="text-five font-medium text-lg max-w-[200px]">
               {item.description}
             </p>

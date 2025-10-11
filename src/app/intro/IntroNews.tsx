@@ -3,35 +3,40 @@ export function IntroNews() {
     <article className="p-4 sm:pl-[10%] pl-0 pt-40">
       <h2 className="text-4xl font-bold mb-3">CO SE U NÁS DĚJE?</h2>
       <p className="text-base leading-relaxed pb-6">
-        Pořád něco! Chceme, aby Vás cvičení a zdravý životní styl bavil.
+        U nás to žije! Nejde jen o trénink, ale o energii, zážitky a komunitu.
+        Přidej se a buď součástí Gym-Bros atmosféry.
       </p>
+
       <h2
         className="text-4xl font-bold mb-3 relative max-w-128
-            duration-300 
-            ease-in-out 
-            hover:scale-105 
-            hover:pl-2 
-            hover:border-l-4 
-            hover:border-five"
+        duration-300 
+        ease-in-out 
+        hover:scale-105 
+        hover:pl-2 
+        hover:border-l-4 
+        hover:border-five"
       >
-        Valentýnský spinning 14.2.
+        Dobročinný běh
       </h2>
       <p className="text-base leading-relaxed pb-6">
-        Přijďte si užít svátek zamilovaných v pohybu! Pojďte si dát
+        Láska k pohybu spojuje! Přijďte si s partnerem nebo kamarádem dát
+        Dobročinný běh plný energie, hudby a dobré nálady.
       </p>
+
       <h2
         className="text-4xl font-bold mb-3 relative max-w-128
-            duration-300 
-            ease-in-out 
-            hover:scale-105 
-            hover:pl-2 
-            hover:border-l-4 
-            hover:border-five"
+        duration-300 
+        ease-in-out 
+        hover:scale-105 
+        hover:pl-2 
+        hover:border-l-4 
+        hover:border-five"
       >
-        Chceš u nás pracovat?
+        Přidej se k našemu týmu
       </h2>
       <p className="text-base leading-relaxed">
-        Tak teď máš šanci! Nabíráme nové lidi na pozici Floor.
+        Baví tě fitness prostředí? Hledáme posily na pozici Floor trenér. Staň
+        se součástí Gym-Bros a pomáhej lidem posouvat svoje hranice.
       </p>
     </article>
   );

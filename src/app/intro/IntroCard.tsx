@@ -13,34 +13,30 @@ type CardItem = {
 export function IntroCard() {
   const cards: CardItem[] = [
     {
-      title: "posilovna",
+      title: "Posilovna",
       description:
-        "potřebujete pro svůj trénink stroje, činky, klece, hrazdy, klid? Máme vše!",
+        "Potřebuješ prostor pro pořádný trénink? Činky, hrazdy, klece i stroje – máme všechno, co ti pomůže růst.",
       path: e,
-      alt: "img",
+      alt: "Trénink v posilovně Gym-Bros",
     },
     {
-      title: "lekce",
+      title: "Lekce",
       description:
-        "Ve dvou se to lépe táhne, ve skupině nejlépe. Jaké lekce u nás najdete?",
+        "Ve dvou se to lépe táhne, ve skupině nejlíp. Přidej se na naše lekce a zažij energii Gym-Bros týmu.",
       path: m1,
-      alt: "img",
+      alt: "Skupinová fitness lekce Gym-Bros",
     },
     {
-      title: "služby",
+      title: "Služby",
       description:
-        "Posilovnou to u nás nekončí. Jaké další parády nabízíme a za kolik?",
+        "U nás to tréninkem nekončí. Nabízíme regeneraci, výživové poradenství i osobní tréninky na míru.",
       path: g,
-      alt: "img",
+      alt: "Služby a doplňkové programy Gym-Bros Fitness",
     },
-   
   ];
 
   return (
-    <section
-      aria-label="Features"
-      className="flex justify-evenly wrap -mt-8"
-    >
+    <section aria-label="Features" className="flex justify-evenly wrap -mt-8">
       {cards.map((feature, index) => (
         <article
           key={index}

@@ -19,7 +19,7 @@ const Footer = () => {
             height={64}
           />
           <p className="text-sm">
-            Poctivá italská pizza přímo z pece. Tradice, chuť a láska k řemeslu.
+            Přijď si k nám zacvičit a posuň svoje tělo na další level!
           </p>
         </div>
 
@@ -27,7 +27,7 @@ const Footer = () => {
         <div>
           <h3 className="text-white font-semibold mb-3">Kontakt</h3>
           <ul className="space-y-2 text-sm">
-            <li>Email: Giuliano@gmail.com</li>
+            <li>Email: gymbros@gmail.com</li>
           </ul>
         </div>
 
@@ -35,14 +35,12 @@ const Footer = () => {
         <div>
           <h3 className="text-white font-semibold mb-3">Adresa</h3>
           <ul className="space-y-2 text-sm">
-            <li>Giuliano Restaurant</li>
-            <li>Na Příkopech 257</li>
-            <li>388 01 Blatná</li>
+            <li>Jičínská 247</li>
+            <li>742 58 Příbor</li>
           </ul>
         </div>
       </div>
       <div>
-        <Icons />
       </div>
       {/* spodní lišta */}
       <div className="border-t border-gray-700 mt-10 pt-4 text-center text-sm text-gray-500">

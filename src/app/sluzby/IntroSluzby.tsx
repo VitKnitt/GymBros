@@ -13,11 +13,11 @@ export function IntroSluzby() {
 
       <article className="max-w-prose p-4 pl-10 z-10 bg-one bg-opacity-[70%]">
         <h2 className="mb-4 text-8xl font-bold text-three">
-          Posilovnou to u nás nekončí
+          U nás to nekončí jen u činek
         </h2>
         <p className="text-base text-xl leading-relaxed text-five">
-          Ani zdaleka. Postaráme se o vás od A po Z. Nejlepší fitko přece musí
-          nabízet komplexní služby.
+          Postaráme se o tebe od A do Z. Nejlepší fitko totiž nabízí víc než jen
+          stroje – jde o kompletní zážitek!
         </p>
       </article>
     </section>

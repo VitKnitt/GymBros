@@ -18,8 +18,8 @@ export function TrenerIntro() {
             Chtějte pro sebe to nejlepší
           </h1>
           <h2 className="mb-4 text-2xl font-bold">
-            NRG Fitness je velké, krásné a pro všechny. Začněte ještě dnes
-            trénovat v nejlepší posilovně v Brně.
+            Gym-Bros Fitness je velké, krásné a pro všechny. Začněte ještě dnes
+            trénovat v nejlepší posilovně v Příboře.
           </h2>
           <p className="text-base leading-relaxed">
             Čisté a moderní • Sálové lekce v ceně • Sauna v ceně

@@ -8,9 +8,7 @@ export function SluzbyTreber() {
         <h2 className="text-5xl font-bold mb-3 text-three">
           OSOBNÍ TRÉNINK S TRENÉREM
         </h2>
-        <p className="text-2xl leading-relaxed">
-          Trénujte chytře a správně
-        </p>
+        <p className="text-2xl leading-relaxed">Trénuj chytře, trénuj tvrdě</p>
       </article>
 
       <div className="relative w-[320px] h-[320px]">
@@ -25,12 +23,10 @@ export function SluzbyTreber() {
 
       <div>
         <p className="max-w-prose p-4">
-          Naučte se cvičit tak, abyste si neublížili, a posouvejte se za hezčím
-          tělem i lepším zdravím rychleji a efektivněji. Osobní trenér totiž
-          není výsadou milionářů nebo profesionálních sportovců. Alespoň pár
-          tréninků s trenérem by měl absolvovat každý. Osobní trénink si
-          můžete zarezervovat telefonicky, kontaktním formulářem nebo osobně na
-          recepci NRG fitness.
+          Nauč se cvičit správně, vyhni se zraněním a posouvej svoje tělo
+          rychleji k lepší kondici a zdraví. Osobní trenér není jen pro profíky
+          – každý by měl alespoň pár lekcí zkusit. Rezervuj si trénink
+          telefonicky, přes formulář nebo přímo na recepci Gym-Bros Fitness.
         </p>
 
         <div>
@@ -42,7 +38,9 @@ export function SluzbyTreber() {
             </li>
             <li className="flex flex-row gap-4 items-end pb-3">
               <p className="text-xl font-medium">11 tréninků</p>
-              <p className="price text-2xl text-three font-semibold">5499 Kč</p>
+              <p className="price text-2xl text-three font-semibold">
+                5 499 Kč
+              </p>
             </li>
             <li className="flex flex-row gap-4 items-end pb-3">
               <p className="text-xl font-medium">Trénink ve dvou</p>
