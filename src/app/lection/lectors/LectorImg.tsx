@@ -29,11 +29,11 @@ const elements = [
 
 export default function LectorImg() {
   return (
-    <section className="max-w-7xl mx-auto p-6 flex gap-6 justify-center flex-wrap">
+    <section className="max-w-7xl mx-auto pt-6 flex gap-6 justify-center flex-wrap">
       {elements.map((item, index) => (
         <div
           key={index}
-          className="relative bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300"
+          className="relative rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300"
         >
           <div className="relative h-[20rem] w-[300px]">
             <Image
@@ -43,9 +43,9 @@ export default function LectorImg() {
               className="object-contain"
             />
           </div>
-          <div className="p-4 bg-white flex flex-col justify-start">
-            <p className="text-one font-medium font-bold text-2xl">{item.text}</p>
-            <p className="text-one font-medium text-lg max-w-[200px]">
+          <div className="p-4 flex flex-col justify-start">
+            <p className="text-five font-bold font-bold text-2xl">{item.text}</p>
+            <p className="text-five font-medium text-lg max-w-[200px]">
               {item.description}
             </p>
           </div>

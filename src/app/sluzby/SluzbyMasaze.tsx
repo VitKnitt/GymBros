@@ -3,7 +3,7 @@ import img1 from "../../assets/img/m5.jpg";
 
 export function SluzbyMasaze() {
   return (
-    <section className="bg-one bg-cover bg-center flex flex-row justify-start flex-wrap gap-10 p-5 pb-20 pl-0 sm:pl-[10%]">
+    <section className="flex flex-row justify-start flex-wrap gap-10 p-5 pb-20 pl-0 sm:pl-[10%]">
       <article className="max-w-prose p-4">
         <h2 className="text-5xl font-bold mb-3 text-three">
           SPORTOVNÍ MASÁŽE

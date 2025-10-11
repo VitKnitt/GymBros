@@ -44,7 +44,7 @@ export function IntroCard() {
       {cards.map((feature, index) => (
         <article
           key={index}
-          className="flex flex-col justify-center items-center w-[300px] rounded-xl shadow-2xl shadow-shadow"
+          className="flex flex-col justify-center items-center w-[320px] rounded-xl shadow-2xl shadow-shadow border-b-4 pb-3"
         >
           <div className="relative w-full h-40">
             <Image
@@ -52,7 +52,7 @@ export function IntroCard() {
               alt={feature.alt}
               className="object-cover rounded-t-xl"
               fill
-              sizes="(max-width: 768px) 100vw, 300px"
+              sizes="(max-width: 768px) 100vw, 320px"
             />
           </div>
           <div className="p-5">

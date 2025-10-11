@@ -9,13 +9,15 @@ import { SluzbyTreber } from "./SluzbyTreber";
 
 export default function Intro() {
   return (
-   <section className="bg-one flex flex-col justify-evenly py-20">
+   <section className="bg-one bg-[url('/backGround/bg2.svg')] flex flex-col justify-evenly pt-20">
     <IntroSluzby />
+    <div className="bg-one bg-opacity-[80%]">
     <SluzbySauna />
     <SluzbyTreber />
     <SluzbyPoradentstvi />
     <SluzbyMasaze />
     <SluzbySolarium />
+    </div>
     </section>
   );
 }

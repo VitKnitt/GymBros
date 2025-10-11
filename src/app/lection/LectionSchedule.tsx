@@ -70,7 +70,7 @@ export default function LectionSchedule() {
         Rozvrh lekcí
       </h2>
 
-      <div className="overflow-x-auto rounded-xl shadow-lg">
+      <div className="hidden sm:block overflow-x-auto rounded-xl shadow-lg">
         <table className="min-w-full text-center border-collapse bg-white shadow-md">
           <thead className="bg-three text-one">
             <tr>
@@ -84,12 +84,18 @@ export default function LectionSchedule() {
           </thead>
           <tbody>
             {schedule.map((lesson, i) => (
-              <tr key={i} className="odd:bg-four even:bg-five hover:bg-three/20 transition">
+              <tr
+                key={i}
+                className="odd:bg-four even:bg-five hover:bg-three/20 transition"
+              >
                 <td className="py-3 px-4 border border-two font-medium text-two">
                   {lesson.time}
                 </td>
                 {Object.values(lesson.days).map((activity, j) => (
-                  <td key={j} className="py-3 px-4 border border-two text-sm text-two">
+                  <td
+                    key={j}
+                    className="py-3 px-4 border border-two text-sm text-two"
+                  >
                     {activity || "—"}
                   </td>
                 ))}
@@ -97,6 +103,28 @@ export default function LectionSchedule() {
             ))}
           </tbody>
         </table>
+      </div>
+
+      <div className="block sm:hidden space-y-4">
+        {schedule.map((lesson, i) => (
+          <div
+            key={i}
+            className="border border-two rounded-lg p-4 bg-white shadow"
+          >
+            <h3 className="font-bold text-two">{lesson.time}</h3>
+            <ul className="mt-2 text-sm">
+              {Object.entries(lesson.days).map(([day, activity]) => (
+                <li
+                  key={day}
+                  className="flex justify-between border-b last:border-0 py-1"
+                >
+                  <span className="font-semibold text-three">{day}</span>
+                  <span className="text-one">{activity || "—"}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))}
       </div>
 
       <p className="text-center mt-6 text-three text-sm italic">

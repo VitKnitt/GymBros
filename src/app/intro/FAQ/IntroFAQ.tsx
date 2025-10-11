@@ -4,10 +4,10 @@ export function IntroFAQ() {
   //bg-fixed
   //bg-[url('/backGround/cccoil.svg')]
   return (
-    <section className="bg-five bg-cover bg-center flex justify-evenly flex-wrap gap-10 p-5 pb-20">
-      <article className="max-w-prose p-4 flex flex-col">
-        <h2 className="text-5xl font-bold text-one mb-3 pb-3">ČASTO KLADENÉ DOTAZY</h2>
-        <p className="text-base leading-relaxed text-one pb-3">
+    <section className="flex justify-center flex-wrap gap-10 p-5 pb-20">
+      <article className="max-w-prose p-4 flex flex-col items-center">
+        <h2 className="text-5xl font-bold text-three mb-3 pb-3">ČASTO KLADENÉ DOTAZY</h2>
+        <p className="text-base leading-relaxed text-five pb-3">
           Je něco, na co byste se nás chtěli zeptat? Směle do toho! Mrkněte ale
           nejdříve sem, jestli už jsme někomu na podobnou otázku neodpovídali
           dříve.

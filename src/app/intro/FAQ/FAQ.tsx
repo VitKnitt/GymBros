@@ -24,7 +24,7 @@ export default function FAQ({ question, answer }: Props) {
       <div
         className={`transition-all duration-250 ease-in-out overflow-hidden ${
           open
-            ? "px-2 py-2 text-[1.7rem] border-md border-three bg-white"
+            ? "px-2 py-2 text-[1.7rem] border-md border-three text-five bg-one"
             : "max-h-0 opacity-0"
         }`}
       >

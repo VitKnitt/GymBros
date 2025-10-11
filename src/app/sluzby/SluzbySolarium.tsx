@@ -3,7 +3,7 @@ import img1 from "../../assets/img/solar.jpg";
 
 export function SluzbySolarium() {
   return (
-    <section className="bg-one bg-cover bg-center flex flex-row justify-start flex-wrap gap-20 p-5 pb-20 pl-0 sm:pl-[10%]">
+    <section className="flex flex-row justify-start flex-wrap gap-20 p-5 pb-20 pl-0 sm:pl-[10%]">
       <article className="p-4">
         <h2 className="text-5xl font-bold mb-3 text-three">SOLÁRIUM</h2>
         <p className="text-2xl leading-relaxed">Bronzová kůže 24/7</p>

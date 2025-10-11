@@ -4,34 +4,35 @@ import { useState } from "react";
 import Link from "next/link";
 import { Menu, X } from "lucide-react";
 import Image from "next/image";
+import logo from '../assets/icons/logo.png'
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const menuItems = [
     { href: "/", label: "O nás" },
-    { href: "/lection", label: "lection" },
-    { href: "/nejlepsiPosilovna", label: "nejlepsiPosilovna" },
-    { href: "/sluzby", label: "sluzby" },
+    { href: "/lection", label: "lekce" },
+    { href: "/nejlepsiPosilovna", label: "galerie" },
+    { href: "/sluzby", label: "služby" },
     { href: "/kontakt", label: "kontakt" },
   ];
 
   return (
-    <header className="fixed top-0 z-10 flex h-[70px] w-full items-center justify-between bg-one px-6 md:px-12 shadow opacity-95">
+    <header className="fixed top-0 z-20 flex h-[70px] w-full items-center justify-between bg-one px-6 md:px-12 shadow opacity-95">
       {/* Logo */}
       <Link href="/">
         <Image
-          src="/logo-mini.svg"
+          src={logo}
           alt="Logo"
           width={150}
           height={70}
-          className="w-[150px] h-auto"
+          className="w-[140px] h-auto"
           priority
         />
       </Link>
 
       {/* Desktop menu */}
-      <ul className="hidden md:flex gap-6 list-none">
+      <ul className="hidden md:flex gap-6 list-none pt-6">
         {menuItems.map(({ href, label }) => (
           <li key={href}>
             <Link

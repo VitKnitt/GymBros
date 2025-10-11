@@ -1,7 +1,6 @@
 import { Check } from "lucide-react"; // knihovna lucide-react už bývá v Next projektu
 import Image from "next/image";
-import bg1 from "../../assets/img/img.jpg";
-import bg2 from "../../assets/img/img2.jpg";
+import cardsBg from "../../assets/img/itroCards.svg";
 
 type Plan = {
   title: string;
@@ -19,7 +18,7 @@ export function IntroPrice() {
       title: "1 vstup",
       price: "150 Kč",
       features: ["Vstup do fitness zóny", "Sprchy a šatny", "Bez závazku"],
-      image: bg1,
+      image: cardsBg,
     },
     {
       title: "1 měsíc",
@@ -29,7 +28,7 @@ export function IntroPrice() {
         "Skupinové lekce",
         "Přístup 7 dní v týdnu",
       ],
-      image: bg1,
+      image: cardsBg,
     },
     {
       title: "3 měsíce",
@@ -40,7 +39,7 @@ export function IntroPrice() {
         "Skupinové lekce zdarma",
         "VIP zóna + doplňky stravy",
       ],
-      image: bg2, // jiné pozadí
+      image: cardsBg, // jiné pozadí
       highlighted: true,
     },
   ];
@@ -48,11 +47,11 @@ export function IntroPrice() {
   return (
     <section
       aria-label="Features"
-      className="flex flex-col justify-center items-center gap-6 p-16"
+      className="flex flex-col justify-center items-center gap-6 p-16 pt-40"
     >
       <article className="max-w-prose p-4">
-        <h2 className="text-7xl font-bold mb-3">NAŠE CENY</h2>
-        <p className="text-base leading-relaxed">
+        <h2 className="text-7xl font-bold text-three mb-3">NAŠE CENY</h2>
+        <p className="text-base text-xl leading-relaxed">
           Jak často na sobě chcete makat? To necháme na Vás. Čím pravidelněji,
           tím víc toho od nás dostanete. A levněji.
         </p>
@@ -110,7 +109,7 @@ export function IntroPrice() {
        ))}
      </section>
  
-      <p>
+      <p className="text-base leading-relaxed">
         Registrovat se můžete online zde nebo osobně v NRG Fitness. V případě
         zájmu o roční nebo firemní členství s benefity, nás neváhejte
         kontaktovat.

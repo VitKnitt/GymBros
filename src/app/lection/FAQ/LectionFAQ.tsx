@@ -4,10 +4,10 @@ export function LectionFAQ() {
   //bg-fixed
   //bg-[url('/backGround/cccoil.svg')]
   return (
-    <section className="bg-one bg-cover bg-center flex justify-evenly flex-wrap gap-10 p-5 pb-20">
+    <section className="flex flex-col items-center justify-evenly flex-wrap gap-10 p-5 pt-20 pb-20">
       <article className="max-w-prose p-4">
-        <h2 className="text-2xl font-bold mb-3">ČASTO KLADENÉ DOTAZY</h2>
-        <p className="text-base leading-relaxed">
+        <h2 className="text-4xl font-bold mb-3">ČASTO KLADENÉ DOTAZY</h2>
+        <p className="text-base text-xl leading-relaxed">
           Je něco, na co byste se nás chtěli zeptat? Směle do toho! Mrkněte ale
           nejdříve sem, jestli už jsme někomu na podobnou otázku neodpovídali
           dříve.

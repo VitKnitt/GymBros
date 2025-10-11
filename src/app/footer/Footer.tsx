@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Icons from "./Icons";
+import logo from '../../assets/icons/logo.png'
 
 const Footer = () => {
   return (
@@ -9,7 +11,13 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-6 flex justify-between wrap">
         {/* Logo + krátký text */}
         <div>
-          <Image src="/logo-mini.svg" alt="logoMini" className="mb-3" width={64} height={64} />
+          <Image
+            src={logo}
+            alt="logoMini"
+            className="mb-3"
+            width={64}
+            height={64}
+          />
           <p className="text-sm">
             Poctivá italská pizza přímo z pece. Tradice, chuť a láska k řemeslu.
           </p>
@@ -33,7 +41,9 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-
+      <div>
+        <Icons />
+      </div>
       {/* spodní lišta */}
       <div className="border-t border-gray-700 mt-10 pt-4 text-center text-sm text-gray-500">
         <p>© {new Date().getFullYear()} Všechna práva vyhrazena.</p>
