@@ -11,7 +11,7 @@ export default function FAQ({ question, answer }: Props) {
   const [open, setOpen] = useState(false);
 
   return (
-    <div className="w-[80%] border-2 border-three">
+    <div className="w-[80%] sm:w-[38rem] border-2 border-three">
       {/* Tlačítko */}
       <button
         onClick={() => setOpen(!open)}
