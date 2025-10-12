@@ -1,6 +1,6 @@
 export function IntroNews() {
   return (
-    <article className="p-4 sm:pl-[10%] pl-0 pt-40">
+    <article className="p-4 pl-[10%] sm:pl-[5rem] pt-40">
       <h2 className="text-4xl font-bold mb-3">CO SE U NÁS DĚJE?</h2>
       <p className="text-base leading-relaxed pb-6">
         U nás to žije! Nejde jen o trénink, ale o energii, zážitky a komunitu.

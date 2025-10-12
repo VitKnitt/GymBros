@@ -11,7 +11,7 @@ export function IntroIntro() {
       {/* Překrytí gradientem */}
       <div className="absolute inset-0 bg-gradient-to-r from-black to-transparent z-0"></div>
       <article className="max-w-prose p-4 pl-10 z-10 bg-one bg-opacity-[70%]">
-        <h1 className="mb-4 text-8xl pb-3 font-bold text-three">
+        <h1 className="mb-4 text-7xl sm:text-8xl pb-3 font-bold text-three">
           Překonej svoje limity
         </h1>
         <h2 className="mb-4 text-2xl font-bold pb-3 border-b-4">

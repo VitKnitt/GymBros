@@ -12,7 +12,7 @@ export function LectionIntro() {
       <div className="absolute inset-0 bg-gradient-to-r from-black to-transparent z-0"></div>
 
       <article className="max-w-prose p-4 pl-10 z-10 bg-one bg-opacity-[70%]">
-        <h2 className="mb-4 text-8xl font-bold text-three">Skupinové lekce</h2>
+        <h2 className="mb-4 sm:text-8xl text-5xl font-bold text-three">Skupinové lekce</h2>
         <p className="text-base text-xl leading-relaxed text-five">
           Ve dvou se to lépe táhne, ale ve skupině to má pořádný náboj! Přidej
           se na jógu, HIIT nebo funkční trénink a nech se strhnout energií

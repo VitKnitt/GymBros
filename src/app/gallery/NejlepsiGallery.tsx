@@ -40,7 +40,7 @@ export default function NejlepsiGallery() {
   const closeLightbox = () => setSelectedIndex(null);
 
   return (
-    <div className="max-w-7xl mx-auto p-6">
+    <div className="max-w-7xl mx-auto p-6 pl-10">
       {/* Grid 2x6 */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
         {images.map((img, index) => (
@@ -49,7 +49,7 @@ export default function NejlepsiGallery() {
             className="relative cursor-pointer overflow-hidden rounded-lg shadow-lg hover:scale-105 transition-transform"
             onClick={() => setSelectedIndex(index)}
           >
-            <div className="relative h-[300px] w-[300px] relative">
+            <div className="relative h-[300px] w-[300px]">
               <Image src={img} alt={`img-${index}`} fill className="object-cover" unoptimized/>
             </div>
           </div>

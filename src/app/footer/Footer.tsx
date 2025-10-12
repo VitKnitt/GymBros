@@ -5,9 +5,9 @@ const Footer = () => {
   return (
     <footer
       id="Kontakt"
-      className="scroll-mt-[70px] bg-one text-gray-300 py-10 border-t-4 border-three"
+      className="bg-one text-gray-300 py-10 border-t-4 border-three"
     >
-      <div className="max-w-7xl mx-auto px-6 flex justify-between wrap">
+      <div className="max-w-7xl mx-auto px-6 flex justify-between flex-wrap">
         {/* Logo + krátký text */}
         <div>
           <Image
@@ -27,7 +27,7 @@ const Footer = () => {
         <div>
           <h3 className="text-white font-semibold mb-3">Kontakt</h3>
           <ul className="space-y-2 text-sm">
-            <li>Email: gymbros@gmail.com</li>
+            <li>gymbros@gmail.com</li>
           </ul>
         </div>
 

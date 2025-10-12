@@ -36,7 +36,7 @@ export function IntroCard() {
   ];
 
   return (
-    <section aria-label="Features" className="flex justify-evenly wrap -mt-8">
+    <section aria-label="Features" className="flex justify-evenly flex-wrap gap-4 mt-8">
       {cards.map((feature, index) => (
         <article
           key={index}

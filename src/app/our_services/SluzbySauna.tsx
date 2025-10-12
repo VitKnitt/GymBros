@@ -5,7 +5,7 @@ export function SluzbySauna() {
   return (
     <section className="flex flex-row justify-start flex-wrap gap-10 p-5 pb-20 pl-0 sm:pl-[10%]">
       <article className="max-w-prose p-4">
-        <h2 className="text-5xl font-bold mb-3 text-three">SAUNA & ODPOČINKOVÁ ZÓNA</h2>
+        <h2 className="text-4xl sm:text-5xl font-bold mb-3 text-three">SAUNA & ODPOČINKOVÁ ZÓNA</h2>
         <p className="text-2xl leading-relaxed">
           Další skvělý lidský vynález i u nás: saunu & odpočinek
         </p>
